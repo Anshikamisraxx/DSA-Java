@@ -1,0 +1,21 @@
+import java.util.*;
+class condition
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter your age :");
+        int age=sc.nextInt();
+        if(age<18)
+        {
+            System.out.println("not an adult");
+        }
+        else if(age>=18 && age<60)
+        {
+            System.out.println("Adult");
+        }
+        else{
+            System.out.println("Senior citizen");
+        }
+    }
+}
